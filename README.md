@@ -1,18 +1,17 @@
 # AI Text Detection Baseline
 
-This project builds baseline machine learning models for detecting AI-generated vs human-written text.
+Baseline machine learning models for detecting AI-generated vs human-written text.
 
 ## Objective
-- Train and evaluate text classification models
-- Measure performance using standard metrics (Accuracy, Precision, Recall, F1-score)
-- Provide a clean and reproducible baseline for further improvement
+- Build a reproducible baseline for AI-text detection
+- Evaluate performance using Accuracy, Precision, Recall, and F1-score
+- Provide a foundation for future improvements (transformers, calibration, robustness)
 
-## Models
-- TF-IDF + Logistic Regression (baseline)
-- (Optional) DistilBERT fine-tuning
+## Approach
+**Model:** TF-IDF + Logistic Regression  
+**Notebook:** `ai_text_detection_baseline.ipynb`
 
-## Tools
-Python • Scikit-learn • Jupyter/Google Colab
-
-## Status
-In progress — baseline implementation and evaluation pipeline.
+## How to Run
+Install dependencies:
+```bash
+pip install -r requirements.txt
